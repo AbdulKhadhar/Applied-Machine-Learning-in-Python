@@ -36,3 +36,14 @@ ax.set_xlabel('width')
 ax.set_ylabel('height')
 ax.set_zlabel('color_score')
 plt.show()
+
+
+#create train-test split
+
+#For this example , we use the mass , width , height features of each fruit instance
+X = fruits[['mass','width','height']]
+Y = fruits[['fruit_label']]
+
+# default is 75% / 25% train-test split
+X_train, X_test, y_train, y_test_split(X, y, random_state=0) 
+                                       
